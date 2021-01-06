@@ -1,0 +1,442 @@
+h1 {
+  font-family: Bradley Hand, cursive;
+  font-size: 2.5rem;
+}
+h2 {
+  text-decoration: none;
+  color: black;
+  font-family: Bradley Hand, cursive;
+}
+
+#index {
+  text-decoration: none;
+  color: black;
+}
+
+#pdf-link {
+  text-decoration: none;
+}
+
+#about {
+  text-decoration: none;
+}
+
+.hi {
+  margin-top: 150px;
+  margin-right: 600px;
+  font-family: monospace;
+  font-size: 26px;
+  color: grey;
+}
+
+.content {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Bradley Hand, cursive;
+  word-spacing: 5px;
+}
+
+.information {
+  font-size: 15px;
+  margin-top: 200px;
+  font-family: monospace;
+  margin-left: 5px;
+  color: grey;
+}
+
+.Sri-Lanka {
+  position: absolute;
+  background-image: url("https://images.unsplash.com/photo-1543043204-3f4e66dc5c2b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8c3JpJTIwbGFua2F8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60");
+  background-size: 3000px 1900px;
+  height: 300vh;
+  width: 150vw;
+  left: -90px;
+  background-position: 0 50%;
+  opacity: 0.55;
+
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  animation: dd1 10s 1, dd12 10s 1;
+  animation-delay: 4s, 14s;
+}
+
+.Sri-Lanka2 {
+  position: absolute;
+  background-image: url("https://images.unsplash.com/photo-1543043204-3f4e66dc5c2b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8c3JpJTIwbGFua2F8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60");
+  background-size: 2700px 1500px;
+  opacity: 0.5;
+
+  height: 50vh;
+  width: 25vw;
+
+  background-position: -10vw 50%;
+  left: 10vw;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd2 10s 2;
+  animation-delay: 4s;
+}
+
+.Sri-Lanka3 {
+  position: absolute;
+  background-image: url("https://images.unsplash.com/photo-1543043204-3f4e66dc5c2b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8c3JpJTIwbGFua2F8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60");
+  background-size: 100%;
+  overflow: hidden;
+
+  height: 100vh;
+  width: 40vw;
+  left: 25vw;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  background-position: -35vw 50%;
+  opacity: 0.7;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  animation: dd3 10s 2;
+  animation-delay: 4s;
+}
+
+.Sri-Lanka4 {
+  position: absolute;
+  overflow: hidden;
+  background-image: url("https://images.unsplash.com/photo-1543043204-3f4e66dc5c2b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8N3x8c3JpJTIwbGFua2F8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60");
+  background-size: 2700px 1500px;
+  opacity: 0.95;
+  height: 80vh;
+  width: 25vw;
+  left: 60vw;
+  background-position: -70vw 50%;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd4 10s 2;
+  animation-delay: 4s;
+}
+
+.CSSA1 {
+  position: absolute;
+  background-image: url("https://images.saatchiart.com/saatchi/338860/art/6441759/additional_5669a88f836328a80875d6945653321d2975106b-8.jpg");
+  background-size: 2000px 1000px;
+  height: 300vh;
+  width: 150vw;
+  left: -90px;
+  background-position: 0 50%;
+  opacity: 0.3;
+
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  animation: dd1 10s 1, dd12 10s 1;
+  animation-delay: 4s, 14s;
+}
+
+.CSSA2 {
+  position: absolute;
+  background-image: url("https://images.saatchiart.com/saatchi/338860/art/6441759/additional_5669a88f836328a80875d6945653321d2975106b-8.jpg");
+  background-size: 2700px 1500px;
+  opacity: 0.5;
+
+  height: 50vh;
+  width: 25vw;
+
+  background-position: -10vw 50%;
+  left: 10vw;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd2 10s 2;
+  animation-delay: 4s;
+}
+
+.CSSA3 {
+  position: absolute;
+  background-image: url("https://images.saatchiart.com/saatchi/338860/art/6441759/additional_5669a88f836328a80875d6945653321d2975106b-8.jpg");
+  background-size: 100%;
+  overflow: hidden;
+
+  height: 100vh;
+  width: 40vw;
+  left: 25vw;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  background-position: -35vw 50%;
+  opacity: 0.7;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  animation: dd3 10s 2;
+  animation-delay: 4s;
+}
+
+.CSSA4 {
+  position: absolute;
+  overflow: hidden;
+  background-image: url("https://images.saatchiart.com/saatchi/338860/art/6441759/additional_5669a88f836328a80875d6945653321d2975106b-8.jpg");
+  background-size: 2700px 1500px;
+  opacity: 0.5;
+  height: 80vh;
+  width: 25vw;
+  left: 60vw;
+  background-position: -70vw 50%;
+
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  animation: dd4 10s 2;
+  animation-delay: 4s;
+}
+
+@keyframes dd1 {
+  0% {
+  }
+  50% {
+    width: 95vw;
+  }
+}
+@keyframes dd12 {
+  0% {
+  }
+  50% {
+    background-position: Calc(0vw - 40px) 50%;
+  }
+}
+@keyframes dd2 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-10vw - 40px) 50%;
+  }
+}
+@keyframes dd3 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-35vw - 40px) 50%;
+  }
+}
+@keyframes dd4 {
+  0% {
+  }
+  50% {
+    background-position: Calc(-70vw - 40px) 50%;
+  }
+}
+
+.word-Sri {
+  position: absolute;
+  color: black;
+  font-family: Didot;
+  margin-left: 130px;
+  margin-top: 150px;
+  font-size: 70px;
+  font-weight: 10;
+}
+
+.word-CSSA {
+  position: absolute;
+  color: black;
+  font-family: Didot;
+  margin-left: 800px;
+  margin-top: 150px;
+  font-size: 70px;
+  font-weight: 10;
+}
+
+.explanation-Sri {
+  color: gray;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  top: 320px;
+  left: 143px;
+  letter-spacing: 2px;
+}
+
+.explanation-CSSA {
+  color: gray;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  top: 320px;
+  left: 815px;
+  letter-spacing: 2px;
+}
+
+#sri-lanka-title {
+  position: inherit;
+  z-index: 100;
+}
+
+#sri-lanka-title:hover ~ #Sri {
+  /* display: block; */
+  opacity: 1;
+}
+
+#Sri {
+  opacity: 0;
+  /* display: none; */
+  transition: all 1s linear;
+  pointer-events: none;
+}
+
+#CSSA-title {
+  position: inherit;
+  z-index: 100;
+}
+
+#CSSA-title:hover ~ #CSSA {
+  /* display: block; */
+  opacity: 1;
+}
+
+#CSSA {
+  opacity: 0;
+  /* display: none; */
+  transition: all 1s linear;
+  pointer-events: none;
+}
+
+.Sri-ps1 {
+  opacity: 2;
+  position: absolute;
+  margin-top: -15.5px;
+  margin-left: 0px;
+  width: 1440px; /* width of container */
+  height: 600px; /* height of container */
+  object-fit: cover;
+
+  object-position: 50% 50%;
+}
+
+.Sri-ele {
+  position: absolute;
+  z-index: 1;
+  font-family: Bradley Hand, cursive;
+  color: gray;
+  font-size: 30px;
+  letter-spacing: 3px;
+  top: 500px;
+  right: 200px;
+}
+
+.OCIVA {
+  margin-top: 700px;
+}
+
+.OCIVA-h2 {
+  font-family: arial, sans-serif;
+  margin-left: 400px;
+  font-size: 20px;
+}
+
+.OCIVA-content {
+  margin-top: 0px;
+  margin-left: 400px;
+  font-family: cursive;
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 7px;
+}
+.ref {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.OCIVA-img {
+  opacity: 0.9;
+  width: 1440px;
+  margin-left: -9px;
+  margin-top: 100px;
+}
+
+.OCIVA-my-role {
+  margin-left: 400px;
+  font-family: arial;
+  color: gray;
+  line-height: 3px;
+}
+
+.d-block-w-100 {
+  margin-top: 70px;
+  width: 1440px;
+  height: 600px;
+}
+
+.geisel {
+  margin-left: -8px;
+  margin-top: -9px;
+}
+
+.CSSA-head-word {
+  position: absolute;
+  z-index: 1;
+  font-family: Times, serif;
+  color: white;
+  font-size: 60px;
+  letter-spacing: 3px;
+  top: 500px;
+  opacity: 0.5;
+}
+
+.CSSAQ {
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.CSSA-A {
+  margin-left: 350px;
+  margin-top: 10px;
+  margin-top: 0px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 7px;
+  font-size: 15px;
+}
+
+.departments {
+  margin-top: -500px;
+  margin-left: 600px;
+}
+
+.department-content {
+  margin-top: 10px;
+  margin-left: 650px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 7px;
+}
+
+.my-department1 {
+  margin-top: 100px;
+  margin-left: 40px;
+  font-family: monospace;
+  font-size: 100px;
+  font-weight: 100;
+  color: lightgrey;
+}
+
+.my-department2 {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: Cursive;
+  font-size: 50px;
+  font-weight: 100;
+  color: lightgrey;
+}
+
+.my-department3 {
+  margin-left: 50px;
+}
